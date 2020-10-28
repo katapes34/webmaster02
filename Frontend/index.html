@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en" class="sr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Highload Hosting</title>
+        <link rel="icon" type="image/png" href="./assets/favicon.png" />
+
+        <link rel="stylesheet" href="./font/inter.css">
+        <link rel="stylesheet" href="./vendor/normalize.css">
+        <link rel="stylesheet" href="./vendor/skeleton.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav id="navbar" class="navbar">
+            <a class="section-link" href="#welcome">Welcome</a>
+            <a class="section-link" href="#customers">Customers</a>
+            <a class="section-link" href="#about">About</a>
+            <a class="section-link" href="#plans">Plans</a>
+            <a class="section-link" href="#contact">Contact Us</a>
+        </nav>
+
+        <!-- Welcome screen -->
+        <section id="welcome" class="black-section">
+            <div class="container">
+                <div id="welcome-background" style="opacity: 0"></div>
+                <div id="welcome-content">
+                    <img
+                        id="welcome-image"
+                        class="load-hidden"
+                        src="./assets/welcome.svg"
+                    />
+                    <div id="welcome-text" class="load-hidden">
+                        <p>
+                            The world's best enterprise solution for handling
+                            more than a million requests per minute.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our customers -->
+        <section id="customers" class="white-section">
+            <div class="container">
+                <p id="customers-text" class="load-hidden">
+                    The best teams around the world use our service
+                </p>
+                <div id="customers-logos">
+                    <img
+                        id="netflix"
+                        class="logo load-hidden"
+                        src="./assets/companies/netflix.svg"
+                    />
+                    <img
+                        id="apple"
+                        class="logo load-hidden"
+                        src="./assets/companies/apple.svg"
+                    />
+                    <img
+                        id="github"
+                        class="logo load-hidden"
+                        src="./assets/companies/github.svg"
+                    />
+                    <img
+                        id="microsoft"
+                        class="logo load-hidden"
+                        src="./assets/companies/microsoft.svg"
+                    />
+                    <img
+                        id="unity"
+                        class="logo load-hidden"
+                        src="./assets/companies/unity.svg"
+                    />
+                    <img
+                        id="adobe"
+                        class="logo load-hidden"
+                        src="./assets/companies/adobe.svg"
+                    />
+                    <img
+                        id="ubisoft"
+                        class="logo load-hidden"
+                        src="./assets/companies/ubisoft.svg"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="black-section">
+            <div class="container">
+                <div id="block1" class="load-hidden">
+                    <img src="./assets/Image1.jpg" />
+                    <h2>Global infrastructure</h2>
+                    <p>
+                        Our
+                        <span class="focus">12 high-speed data centers</span>
+                        with increased stability are located all over the world
+                        - you don't have to worry about connection speed or loss
+                        of packets.
+                    </p>
+                </div>
+
+                <div id="block2" class="load-hidden">
+                    <img src="./assets/image2.jpg" />
+
+                    <h2>Built from scratch</h2>
+                    <p>
+                        Our infrastructure built from the scratch by the
+                        <span class="focus">world's best developers</span>,
+                        processes more data than any other service available on
+                        the market.
+                    </p>
+                </div>
+
+                <div id="block3" class="load-hidden">
+                    <img src="./assets/image3.jpg" />
+
+                    <h2>Reliability & Stability</h2>
+                    <p>
+                        Our servers are self-balancing and available
+                        <span class="focus">99.999%</span> times a year, making
+                        them one of the most stable services in the galaxy! You
+                        MUST rely on us!
+                    </p>
+                </div>
+
+                <div id="block4" class="load-hidden">
+                    <img src="./assets/image4.jpg" />
+
+                    <h2>Any tools - Any ideas</h2>
+                    <p>
+                        We support any tools and any technology stack. You can
+                        use Python, Ruby, Node.js, PHP, .NET, Java and any other
+                        languages using our
+                        <span class="focus">component system</span>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plans -->
+        <section id="plans" class="white-section">
+            <div class="container">
+                <div class="row">
+                    <div class="six columns">
+                        <div class="plan load-hidden" id="plan1">
+                            <h1>STARTUP</h1>
+
+                            <table class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Price</th>
+                                        <th>CPU</th>
+                                        <th>RAM</th>
+                                        <th>STORAGE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            0.1$ / Hour
+                                        </td>
+                                        <td>2 CPUs</td>
+                                        <td>4 GB</td>
+                                        <td>128 GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            0.5$ / Hour
+                                        </td>
+                                        <td>4 CPUs</td>
+                                        <td>8 GB</td>
+                                        <td>512 GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            1$ / Hour
+                                        </td>
+                                        <td>6 CPUs</td>
+                                        <td>16 GB</td>
+                                        <td>1 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            5$ / Hour
+                                        </td>
+                                        <td>8 CPUs</td>
+                                        <td>18 GB</td>
+                                        <td>4 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10$ / Hour
+                                        </td>
+                                        <td>12 CPUs</td>
+                                        <td>24 GB</td>
+                                        <td>5 TB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <ul>
+                                <li>16 TB Bandwidth per hour</li>
+                                <li>24/7 Standart support</li>
+                            </ul>
+
+                            <a href="#contact" class="button u-full-width"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+
+                    <div class="six columns">
+                        <div class="plan load-hidden" id="plan2">
+                            <h1>ENTERPRICE</h1>
+
+                            <table class="u-full-width">
+                                <thead>
+                                    <tr>
+                                        <th>Price</th>
+                                        <th>CPU</th>
+                                        <th>RAM</th>
+                                        <th>STORAGE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>50$ / Hour</td>
+                                        <td>16 CPUs</td>
+                                        <td>32 GB</td>
+                                        <td>100 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>100$ / Hour</td>
+                                        <td>32 CPUs</td>
+                                        <td>64 GB</td>
+                                        <td>200 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>200$ / Hour</td>
+                                        <td>64 CPUs</td>
+                                        <td>128 GB</td>
+                                        <td>400 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>350$ / Hour</td>
+                                        <td>128 CPUs</td>
+                                        <td>256 GB</td>
+                                        <td>600 TB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>500$ / Hour</td>
+                                        <td>256 CPUs</td>
+                                        <td>512 GB</td>
+                                        <td>800 TB</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <ul>
+                                <li>128 TB Bandwidth per hour</li>
+                                <li>24/7 Premium support</li>
+                            </ul>
+
+                            <a href="#contact" class="button u-full-width"
+                                >Contact Us</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="black-section">
+            <div class="container">
+                <h1>Ready to start?</h1>
+                <p>
+                    Get in touch with us without any commitments. We are happy
+                    to help you with any questions you might have.
+                </p>
+
+                <form>
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="nameInput">Your name</label>
+                            <input
+                                class="u-full-width"
+                                type="text"
+                                placeholder="John Doe"
+                                id="nameInput"
+                            />
+                        </div>
+                        <div class="six columns">
+                            <label for="exampleEmailInput">Your email</label>
+                            <input
+                                class="u-full-width"
+                                type="email"
+                                placeholder="example@mailbox.com"
+                                id="exampleEmailInput"
+                            />
+                        </div>
+                    </div>
+                    <input
+                        class="button u-full-width"
+                        type="submit"
+                        value="Submit"
+                    />
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <span
+                    >Made with ♥ by
+                    <a href="https://github.com/katapes34">Nikitka</a>
+                </span>
+            </div>
+        </footer>
+
+        <script src="./vendor/scrollreveal.js"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
